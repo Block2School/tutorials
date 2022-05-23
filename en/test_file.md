@@ -8,7 +8,13 @@ const tmp = (salut) => {
 
 ## titre 1
 
+_italic_
+
 ## titre 2
+
+**bold**
+
+normal
 
 ## titre 3
 
