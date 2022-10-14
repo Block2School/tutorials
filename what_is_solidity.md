@@ -1,0 +1,3 @@
+# What's is solidity
+
+Solidity is a programming language for writing Smart Contracts. Essentially, think of it as a way to control a bank account with code. With Solidity, we can write applications that simulate a crowd funding campaign, a lottery, a loan, or any other type of financial instrument. Don't be intimidated by learning 'another' programming language; Solidity is known to be quite similar to Javascript and exceptionally easy to pick up for anyone who has previous JS experience. This course will give you all the tools you need to master Solidity.
