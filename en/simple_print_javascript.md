@@ -23,15 +23,12 @@ Here's the starting code:
 -----
 
 ```js
-// some code ...
-// ...
-
-const print = (//argument) => {
+const print = (/*argument*/) => {
   // code here
 };
 
-print(readline());
+print("Simple print");
 ```
 
-> Your function should print `Hello World !` when submitting your code ! ℹ️ ("Hello World !" is written in stdin which is read by the `readline()` function.) ℹ️
+> ℹ️ Your function should print `Simple print` when submitting your code ! ℹ️
 
