@@ -1,5 +1,6 @@
 # Arrays
 
+Arrays are used to store collections of data of the same type. This tutorial introduces the concept of arrays in C++ and demonstrates how to declare, initialize, and use arrays. It's a fundamental concept for working with collections of data.
 
 ## It's your turn
 

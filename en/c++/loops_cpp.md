@@ -1,5 +1,7 @@
 # Loops
 
+Loops are used to execute a block of code repeatedly. This tutorial covers the for loop, a common type of loop in C++. It demonstrates how to use a loop to perform iterative tasks, such as printing multiples of a number.
+
 ## It's your turn
 
 Create a program that prints the first 5 multiples of a given number. Declare a variable baseNumber and assign it a value. Use a for loop to calculate and print the multiples.
