@@ -28,4 +28,4 @@ myNumber = 5 % 2 // = 1 => Remainder of an integer division
 
 ## It's your turn
 
-Create a variable that calculates the value **28**. _You can choose any operation for the calculation_, only the result is **mandatory**. Then, **display the value in the terminal**.
+Complete **every** function.

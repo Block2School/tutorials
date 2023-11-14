@@ -64,8 +64,22 @@ console.log("test", num2, "OK"); // Will display "test 10 OK"
 
 ## It's your turn
 
-You have a JSON variable defined; it's your turn to display the following operations:
-- Display the result of `3 + 9`
-- Display `Block TWO TestingOk`
-- Display `falseBlock2School 919 200` (919 is obtained by doing `894 + 25`, and 200 is obtained by doing `25 * 8`)
-- Display `SCHoolTWOBlock Block2School120 12` (12 is obtained by doing `3 + 9`)
+Create a JSON variable with this informations:
+```js
+myJson.number // Should be 3
+myJson.otherNumb // Should be 9
+myJson.a // Should be 25
+myJson.b[0] // Should be 5
+myJson.b[1] // Should be 8
+myJson.b[2] // Should be 10
+myJson.b2s.block // Should be Block
+myJson.b2s.to // Should be TWO
+myJson.b2s.School // Should be SCHool
+myJson.b2s.values.n // Should be 120
+myJson.b2s.values.a // Should be 894
+myJson.b2s.values.z // Should be Ok
+myJson.b2s.boolean // Should be false
+myJson.texting // Should be Testing
+myJson.entIre // Should be Block2School
+```
+And return this JSON variable.
