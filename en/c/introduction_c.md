@@ -18,11 +18,15 @@ In C, the traditional first program is the "Hello, World!" program. This simple 
 
 Display the message "**Hello World!**" in the terminal.
 
+
 ```c
 #include <stdio.h>
 
 int main() {
-    // Display "Hello, World!" here
+    // Display "Hello World!" here
     return 0;
 }
 ```
+
+Expected output : 
+Hello World

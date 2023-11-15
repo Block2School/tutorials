@@ -36,9 +36,9 @@ Empty code :
 int main() {
     // Declare variables and assign values here
 
-    // Fill in the blank here to calculate the area
+    // Fill in the blank here to calculate the area (Reminder: AREA = LENGHT*WIDTH)
 
-    // Fill in the blank here to print the area
+    printf("The area of the rectangle is: %d\n", area);
 
     return 0;
 }

@@ -15,11 +15,14 @@ Empty code :
 int main() {
     // Declare the variable and assign a value here
 
-    // Fill in the blank here to print the value
+    std::cout << "The value of myNumber is: " << myNumber << std::endl;
 
     return 0;
 }
 ```
+
+Expected output : 
+The value of myNumber is: 42
 
 Expected answer: 
 ```cpp

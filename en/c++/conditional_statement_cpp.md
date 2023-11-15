@@ -11,7 +11,7 @@ Empty code:
 #include <iostream>
 
 int main() {
-    // Declare the variable and assign a value here
+    int num = -5;
 
     // Fill in the blank here to check if the number is positive, negative, or zero
     // Hint: Use an if-else statement
@@ -21,6 +21,10 @@ int main() {
     return 0;
 }
 ```
+
+Expectec output : 
+-5 is negative.
+
 
 Expected answer : 
 

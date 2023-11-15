@@ -43,11 +43,11 @@ Empty code:
 
 // Declare the structure here
 
-// Declare the function prototype here
+void printPersonInfo(struct Person p);
 
 int main() {
-    // Declare variables of type Person and assign values here
-
+    struct Person person1 = {"Alice", 25};
+    struct Person person2 = {"Bob", 30};
     // Call the function to print information for the first person
 
     // Call the function to print information for the second person
@@ -57,8 +57,14 @@ int main() {
 
 // Define the structure here
 
-// Define the function here
+void printPersonInfo(struct Person p) {
+    printf("Name: %s, Age: %d\n", p.name, p.age);
+}
 ````
+
+Expected output : 
+Name: Alice, Age: 25
+Name: Bob, Age: 30
 
 Expected answer : 
 ```c

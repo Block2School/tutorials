@@ -32,7 +32,7 @@ Empty code :
 #include <stdio.h>
 
 int main() {
-    // Declare the variable and assign a value here
+    int myNumber = 7;
 
     // Fill in the blank here to check if the number is even or odd
     // Hint: Use an if-else statement
@@ -42,6 +42,9 @@ int main() {
     return 0;
 }
 ```
+
+Expected output: 
+7 is odd
 
 Expected answer : 
 

@@ -30,18 +30,24 @@ Empty code :
 ```c
 #include <stdio.h>
 
-// Declare the function prototype here
+int calculateSum(int arr[], int size);
 
 int main() {
-    // Declare the integer array and assign values here
+    int numbers[] = {2, 4, 6, 8, 10};
+    int size = sizeof(numbers) / sizeof(numbers[0]);
 
     // Call the function to calculate the sum
 
     return 0;
 }
 
-// Define the function here
+int calculateSum(int arr[], int size) {
+    // Write your code here
+}
 ```
+
+Expected output : 
+The sum of the elements is: 30
 
 Exepected answer: 
 ```c

@@ -16,6 +16,9 @@ int main() {
 }
 ```
 
+Expected output:
+Hello World
+
 Expected answer: 
 ```cpp
 #include <iostream>

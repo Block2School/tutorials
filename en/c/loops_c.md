@@ -25,13 +25,21 @@ Create a program that prints the first 5 multiples of a given number. Declare a 
 #include <stdio.h>
 
 int main() {
-    // Declare the variable and assign a value here
 
+    int baseNumber = 3;
+  
     // Fill in the blank here to use a for loop to calculate and print the multiples
 
     return 0;
 }
 ````
+
+Expected output: 
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+3 x 4 = 12
+3 x 5 = 15
 
 Expected answer : 
 ```c

@@ -27,13 +27,16 @@ Empty code :
 #include <stdio.h>
 
 int main() {
-    // Declare the variable and assign a value here
+    // Declare the variable and assign a value of 25
 
-    // Fill in the blank here to print the value
+    printf("The value of myNumber is: %d\n", myNumber);
 
     return 0;
 }
 ```
+
+Expected output: 
+The value of myNumber is: 25
 
 Expected answer : 
 ```c

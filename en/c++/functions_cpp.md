@@ -11,18 +11,28 @@ Empty code:
 ```cpp
 #include <iostream>
 
-// Declare the function prototype here
+int calculateFactorial(int n);
 
 int main() {
-    // Declare the variable and assign a value here
+     int num = 5;
 
     // Call the function to calculate the factorial
 
+    std::cout << "The factorial of " << num << " is: " << result << std::endl;
     return 0;
 }
 
-// Define the function here
+int calculateFactorial(int n) {
+    if (n == 0 || n == 1) {
+        return 1;
+    } else {
+        return n * calculateFactorial(n - 1);
+    }
+}
 ```
+
+Expected output: The factorial of 5 is: 120
+
 
 Expected answer :
 ```cpp
