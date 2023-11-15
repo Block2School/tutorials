@@ -23,11 +23,4 @@ There are many other methods that we will explore in more advanced tutorials lat
 
 ## It's your turn!
 
-With the provided list, follow these instructions in order:
-- Display the length of the list.
-- Add the value `B2S` to the list.
-- Display the 3rd element of the list.
-- Remove the first element of the list and display it.
-- Display the 1st element of the list.
-- Remove the last element of the list.
-- Display the list in a text variable with the separator `-*-`.
+Complete every functions.

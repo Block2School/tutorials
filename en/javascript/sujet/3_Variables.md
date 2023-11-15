@@ -28,4 +28,4 @@ Keep in mind that it is also possible to **retrieve a value that a function can 
 
 ## It's your turn
 
-Create 6 different variables containing: `5, "Block2School!", false, null, -53, "This JavaScript tutorial is nice!"` and display them in the terminal in this order.
+Set inside a list variable `5, "Block2School!", false, null, -53, "This JavaScript tutorial is nice!"` and return it.
