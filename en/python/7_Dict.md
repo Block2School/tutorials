@@ -11,7 +11,7 @@ myDict = {
 } # Définition avec des accolades avec une clé et un élément.
 
 myDict.get("key") # Retourne la valeur "element"
-myDict["key"] # Retourne également la valeur "element"
+myDict["key"] # Retourne également la valeur "element". Attention, si la clé n'existe pas, le code plante.
 ```
 
 ## It's your turn !
