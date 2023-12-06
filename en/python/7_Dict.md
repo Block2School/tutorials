@@ -2,18 +2,18 @@
 
 ## Définition
 
-On définit un dictionnaire comme ceci:  
+A dictionary is defined like this:  
 
 ```python
 myDict = {
     "key": "element",
     "key2": 1,
-} # Définition avec des accolades avec une clé et un élément.
+} # Definition with braces with a key and an element.
 
-myDict.get("key") # Retourne la valeur "element"
-myDict["key"] # Retourne également la valeur "element". Attention, si la clé n'existe pas, le code plante.
+myDict.get("key") # Returns the value "element".
+myDict["key"] # Also returns the value "element". Warning: if the key doesn't exist, the code crashes.
 ```
 
 ## It's your turn !
 
-Complétez les fonctions.
+Complete the functions.

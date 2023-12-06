@@ -1,40 +1,40 @@
 # Conditions
 
-## Explication
+## Explanation
 
-Une condition vous permet de vérifier l'exactitude de certaines informations, mais aussi de s'assurer de la valeur de vos variables.
+A condition allows you to check the accuracy of certain information, as well as the value of your variables.
 
-## Ecriture
+## Writing
 
 ```python
 if condition:
-    return True # La condition est remplie, nous passons alors dans cette partie
-elif autre_condition:
-    return False # La première condition n'est pas remplie, on vérifie si la deuxième condition est remplie. Si oui, on passe dans cette partie.
+    return True # The condition has been met, so we move on to this section
+elif other_condition:
+    return False # The first condition is not met, so we check whether the second condition is met. If it is, we move on to this section.
 else:
-    return None # Aucune des conditions sont remplies, on va alors dans "la branche par défaut"
+    return None # None of the conditions are met, so we go to "the default branch".
 ```
 
-## Types de conditions
+## Condition types
 
-Prenons commes variables `bigValue`, `smallValue` et `trueVal` tels que:  
+Take as variables `bigValue`, `smallValue` and `trueVal` such as:  
 ```python
 bigValue = 560
 smallValue = 15
 trueVal = True
 ```
 
-- `>` Strictement supérieur à -> `if bigValue > smallValue` retournera `True`.  
-- `<` Strictement inférieur à -> `if bigValue < smallValue` retournera `False`.
-- `>=` Supérieur ou égal à -> `if bigValue >= 560` retournera `True`.
-- `<=` Inférieur ou égal à -> `if bigValue <= 559` retournera `False`.
-- `==` Egal à -> `if bigValue == 560` retournera `True`. `if bigValue == "560"` retournera également `True`.
-- `not` N'est pas -> `if not trueVal` retournera `False`. `if trueVal` retournera `True`.
-- `and` Et, multiple conditions -> `if bigValue < smallValue and trueVal` retournera `False`.
-- `or` Ou, multiple conditions -> `if bigValue < smallValue or trueVal` retournera `True`.
+- Strictly greater than -> `if bigValue > smallValue` will return `True`.
+- `<` Strictly less than -> `if bigValue < smallValue` will return `False`.
+- `>=` Greater than or equal to -> `if bigValue >= 560` will return `True`.
+- `<=` Less than or equal to -> `if bigValue <= 559` will return `False`.
+- `==` Equal to -> `if bigValue == 560` will return `True`. `if bigValue == "560"` will also return `True`.
+- `not` Is not -> `if not trueVal` will return `False`. `if trueVal` will return `True`.
+- `and` And, multiple conditions -> `if bigValue < smallValue and trueVal` will return `False`.
+- Or, multiple conditions -> `if bigValue < smallValue or trueVal` will return `True`.
 
-_Vous pouvez enchaîner plusieurs `and` et `or` dans la même branche. Vous pouvez également utiliser des parenthèses._
+_You can link several `and` and `or` in the same branch. You can also use parentheses._
 
 ## It's your turn
 
-Complétez les fonctions.
+Complete the functions.

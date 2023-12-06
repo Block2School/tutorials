@@ -1,20 +1,20 @@
-# Listes
+# Lists
 
-Les listes sont des variables particulières. Ces variables ne sont pas instanciées comme pour les dictionnaires que l'on verra plus tard.  
-Cela signifie que si l'on crée la liste en dehors d'une fonction, et dans cette fonction, on retire un élément de la liste, même sans retourner la liste, elle sera modifiée.
+Lists are special variables. These variables are not instantiated, as is the case with dictionaries, which we'll see later.  
+This means that if a list is created outside a function, and within that function, an element is removed from the list, even without returning the list, it will be modified.
 
-## Définition
+## Definition
 
-On définit une liste comme ceci:  
+A list is defined as follows:  
 
 ```python
-myList = [] # Définition de la liste
+myList = [] # List definition
 
-myList.append("Value") # Ajoute une valeur à la liste
-del myList[0] # Supprime l'élément de la liste à l'index 0
-len(myList) # Récupère la longueur de la liste
+myList.append("Value") # Append a value to the list
+del myList[0] # Delete the list element at index 0
+len(myList) # Gets the length of the list
 ```
 
 ## It's your turn
 
-Complétez les fonctions.
+Complete the functions.

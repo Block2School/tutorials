@@ -1,20 +1,20 @@
 # Variables
 
-Les variables sont des éléments importants dans un langage de programmation.
+Variables are an important part of any programming language.
 
-## Types de variable
+## Variable types
 
-Pour définir une variable, vous pouvez faire comme ceci:
+To define a variable, you can do as follows:
 
 ```python
-number = 1 # Variable nombre
-float = 5.10 # Variable nombre à virgule
-text = "Hello !" # Variable texte
-boolean = False # Variable bool
-listing = ["Value", 1, None] # Variable liste (nous en reparlerons plus tard)
-objectDict = {"key": "value"} # Variable dictionnaire (nous en reparlerons plus tard)
+number = 1 # Number variable
+float = 5.10 # Decimal number variable
+text = "Hello !" # Variable text
+boolean = False # Boolean variable
+listing = ["Value", 1, None] # Listing variable (more on this later)
+objectDict = {"key": "value"} # Dictionary variable (more on this later)
 ```
 
 ## It's your turn
 
-Complétez les fonctions.
+Complete the functions.

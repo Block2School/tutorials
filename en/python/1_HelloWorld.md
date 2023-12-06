@@ -1,13 +1,13 @@
 # Hello World
 
-## Comment afficher un message
+## How to display a message
 
-Pour afficher un message, il suffit d'utiliser la méthode `print`.
+To display a message, simply use the `print` method.
 
 ```python
-print("Votre texte") # Affichera : "Votre texte"
+print("Your text") # Displays: "Your text".
 ```
 
 ## It's your turn
 
-Affichez le message `Hello World!`.
+Display the message `Hello World!`.

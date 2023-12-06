@@ -1,51 +1,51 @@
-# Fonctions et typage
+# Functions and typing
 
-## Définition d'une fonction
+## Defining a function
 
-Une fonction permet d'éxecuter une série d'actions. Elle peut être pratique également lorsque vous avez besoin de répéter plusieurs actions plusieurs fois dans votre code.  
+A function allows you to perform a series of actions. It can also be useful when you need to repeat several actions several times in your code.  
 
 ```python
-def maFonction(param1, param2): # maFonction est le nom de la fonction, on peut y inclure un ou plusieurs paramètres.
-    return param1 > param2 # Retourne le résultat de la condition (True ou False)
+def myFunction(param1, param2): # myFunction is the function name, and can include one or more parameters.
+    return param1 > param2 # Returns the result of the condition (True or False)
 ```
 
-Une fonction peut retourner une valeur qui peut alors être récupérée par une variable comme ceci:
+A function can return a value which can then be retrieved by a variable like this:
 
 ```python
-result = maFonction(3, 5) # result vaudra False.
+result = myFunction(3, 5) # result will be False.
 ```
 
-## Typage
+## Typing
 
-Il est possible depuis les versions les plus récentes de Python de typer les variables, les paramètres et les retours de fonctions. Voici comment s'y prendre:
+Since the most recent versions of Python, it has been possible to type variables, parameters and function returns. Here's how:
 
-### Fonction
+### Function
 
 ```python
-def maFonction(param1: int, param2: int) -> bool: # Ici notre fonction prend deux paramètres de type int et retournera un bool.
+def myFunction(param1: int, param2: int) -> bool: # Here, our function takes two int parameters and returns a bool.
     return param1 > param2
 ```
 
-Le typage n'est pas strict en python, cela veut dire que vous pouvez très bien utiliser une variable en paramètre de fonction de type str et non de type int dans la fonction ci-dessus. Vous pouvez très bien retourner un type int et non un type bool.  
-Il est tout de même préférable de typer les fonctions afin de permettre aux développeurs de mieux se repérer dans votre code.  
+Typing is not strict in Python, which means you can use a str variable as a function parameter and not an int variable in the above function. You can return an int type and not a bool type.  
+However, it's better to type functions so that developers can find their way around your code more easily.  
 
 ### Variable
 
-```pythonb
-maVariable: int = 10
-monTexte: str = "Mon texte"
+```python
+myVariable: int = 10
+myText: str = "My text"
 ```
 
 ## It's your turn
 
-Ecrivez la fonction `containStr` avec 3 paramètres :  
-- Le premier prend une chaine de caractères
-- Le deuxième prend une autre chaîne de caractères
-- Le troisième prend un nombre entier
+Write the `containStr` function with 3 parameters:  
+- The first takes a string
+- The second takes another string
+- The third takes an integer
 
-Votre fonction doit retourner `True` si le 1er paramètre contient le même nombre de fois le deuxième paramètre que le troisième.  
-Exemple:
+Your function should return `True` if the 1st parameter contains the same number of times the second parameter as the third.  
+Example:
 ```python
-containStr("Texte d'exemple", "m", 1) # Doit retourner True car il y a bien 1 m dans le premier paramètre.
-containStr("Texte d'exemple", "x", 5) # Doit retourner False car il n'y a pas le même nombre de x dans le premier paramètre.
+containStr("Example text", "m", 1) # Must return True because there is 1 m in the first parameter.
+containStr("Example text", "x", 5) # Must return False because there are not the same number of x's in the first parameter.
 ```

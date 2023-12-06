@@ -1,19 +1,19 @@
 # F-String
 
-Les f-string est une méthode simple pour mettre des variables dans une chaîne de caractères.
+The f-string is a simple way of putting variables into a string.
 
-## Utilisation
+## Usage
 
-Pour créer un f-string il suffit tout simplement de mettre un `f` devant votre chaîne de caractère.  
-Voici un exemple:  
+To create an f-string, simply put an `f` in front of your string.  
+Here's an example:  
 
 ```python
 number = 15
-print(f"Mon nombre est le {number}") # Affichera le texte: "Mon nombre est le 15"
+print(f"My number is {number}") # Will display the text: "My number is 15".
 ```
 
-`{number}` a prit la valeur de la variable `number`.
+`{number}` has taken the value of the variable `number`.
 
 ## It's your turn
 
-Complétez la fonction.
+Complete the function.
