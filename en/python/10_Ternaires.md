@@ -1,4 +1,4 @@
-# Ternaires
+# Ternaries
 
 Ternaries are shortened conditions that allow you to do everything in a single line.
 
