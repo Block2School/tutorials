@@ -37,66 +37,6 @@ In this example, a structure Student is defined with members name, age, and gpa.
 
 Create a program that uses a structure to represent a person. Declare a structure Person with members name and age. Write a function printPersonInfo to print the information of a person, and then use this structure to represent and print information for two different people.
 
-Empty code: 
-```c
-#include <stdio.h>
-
-// Declare the structure here
-
-void printPersonInfo(struct Person p);
-
-int main() {
-    struct Person person1 = {"Alice", 25};
-    struct Person person2 = {"Bob", 30};
-    // Call the function to print information for the first person
-
-    // Call the function to print information for the second person
-
-    return 0;
-}
-
-// Define the structure here
-
-void printPersonInfo(struct Person p) {
-    printf("Name: %s, Age: %d\n", p.name, p.age);
-}
-````
-
 Expected output : 
 Name: Alice, Age: 25
 Name: Bob, Age: 30
-
-Expected answer : 
-```c
-#include <stdio.h>
-
-// Declare the structure here
-struct Person {
-    char name[50];
-    int age;
-};
-
-// Declare the function prototype here
-void printPersonInfo(struct Person p);
-
-int main() {
-    // Declare variables of type Person and assign values here
-    struct Person person1 = {"Alice", 25};
-    struct Person person2 = {"Bob", 30};
-
-    // Call the function to print information for the first person
-    printPersonInfo(person1);
-
-    // Call the function to print information for the second person
-    printPersonInfo(person2);
-
-    return 0;
-}
-
-// Define the function here
-void printPersonInfo(struct Person p) {
-    printf("Name: %s, Age: %d\n", p.name, p.age);
-}
-````
-
-

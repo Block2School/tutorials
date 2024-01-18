@@ -27,60 +27,6 @@ In this example, **myFunction** is declared with a prototype before **main**, an
 
 Create a program that calculates the factorial of a given number. Declare a variable num and assign it a value (num = 5). Write a function calculateFactorial to compute the factorial and then print the result.
 
-Empty code : 
-```c
-#include <stdio.h>
-
-int calculateFactorial(int n);
-
-int main() {
-    int num = 5;
-
-    // Call the function to calculate the factorial
-
-    printf("The factorial of %d is: %d\n", num, result);
-    return 0;
-}
-
-int calculateFactorial(int n) {
-    if (n == 0 || n == 1) {
-        return 1;
-    } else {
-        return n * calculateFactorial(n - 1);
-    }
-}
-```
-
 Expected output: 
 The factorial of 5 is: 120
-
-Expected answer : 
-```c
-#include <stdio.h>
-
-// Declare the function prototype here
-int calculateFactorial(int n);
-
-int main() {
-    // Declare the variable and assign a value here
-    int num = 5;
-
-    // Call the function to calculate the factorial
-    int result = calculateFactorial(num);
-
-    // Print the result
-    printf("The factorial of %d is: %d\n", num, result);
-
-    return 0;
-}
-
-// Define the function here
-int calculateFactorial(int n) {
-    if (n == 0 || n == 1) {
-        return 1;
-    } else {
-        return n * calculateFactorial(n - 1);
-    }
-}
-````
 

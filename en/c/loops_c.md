@@ -21,40 +21,9 @@ int main() {
 
 Create a program that prints the first 5 multiples of a given number. Declare a variable baseNumber and assign it a value (baseNumber = 3). Use a for loop to calculate and print the multiples.
 
-```c
-#include <stdio.h>
-
-int main() {
-
-    int baseNumber = 3;
-  
-    // Fill in the blank here to use a for loop to calculate and print the multiples
-
-    return 0;
-}
-````
-
 Expected output: 
 3 x 1 = 3
 3 x 2 = 6
 3 x 3 = 9
 3 x 4 = 12
 3 x 5 = 15
-
-Expected answer : 
-```c
-#include <stdio.h>
-
-int main() {
-    // Declare the variable and assign a value here
-    int baseNumber = 3;
-
-    // Fill in the blank here to use a for loop to calculate and print the multiples
-    for (int i = 1; i <= 5; i++) {
-        printf("%d x %d = %d\n", baseNumber, i, baseNumber * i);
-    }
-
-    return 0;
-}
-```
-
